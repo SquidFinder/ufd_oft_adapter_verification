@@ -16,4 +16,3 @@
 <p>Solana: ufdrKZTpDwAyP7AZeU7NukU9HuZGeFcqGXH5DaFZ2aq</p>
 <p>EVM: 0x26D27Cff9EffB35A6DABfB7De8afebAAE1413501</p>
 
-# ufd_oft_adapter_verification
