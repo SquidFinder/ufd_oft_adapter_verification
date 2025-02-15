@@ -31,20 +31,30 @@ const action: ActionType<TaskArguments> = async (
     //     console.log(`approve: ${amount}: ${approvalTxReceipt.transactionHash}`)
     // }
 
+    if (dstEid == 30168) {
+    	to = bs58.decode(to);
+    } 
+    //'0x000301002101000000000000000000000000000f42400000000000000000000009184e72a000',
     const amountLD = BigNumber.from(amount)
     const sendParam = {
         dstEid,
-        to: makeBytes32(bs58.decode(to)),
+        to: makeBytes32(to),
         amountLD: amountLD.toString(),
         minAmountLD: amountLD.mul(9_000).div(10_000).toString(),
         extraOptions: '0x',
         composeMsg: '0x',
         oftCmd: '0x',
     }
+    let gasLimiter = 500_000
+    if (hre.network.name == "mantle") { 
+    	gasLimiter = 1_000_000_000    
+    }
+
     const [msgFee] = await token.functions.quoteSend(sendParam, false)
+    console.log(msgFee)
     const txResponse = await token.functions.send(sendParam, msgFee, signer.address, {
         value: msgFee.nativeFee,
-        gasLimit: 500_000,
+        gasLimit: gasLimiter,
     })
     const txReceipt = await txResponse.wait()
     console.log(`send: ${amount} to ${to}: ${txReceipt.transactionHash}`)
@@ -57,4 +67,4 @@ task('send', 'Sends a transaction', action)
     .addParam('dstEid', 'Destination endpoint ID', undefined, types.int, false)
     .addParam('amount', 'Amount to send in wei', undefined, types.string, false)
     .addParam('to', 'Recipient address', undefined, types.string, false)
-    .addOptionalParam('contractName', 'Name of the contract in deployments folder', 'MyOFT', types.string)
+    .addOptionalParam('contractName', 'Name of the contract in deployments folder', 'UFDOFT', types.string)

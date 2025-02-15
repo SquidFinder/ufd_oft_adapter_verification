@@ -78,6 +78,18 @@
 		"nocturnal_labs": "0x04584d612802A3a26b160E3F90341E6443dDB76A",
 		"horizen_labs": "0x380275805876Ff19055EA900CDb2B46a94ecF20D"
 	},
+	"bsc" : {
+		"bware": "0xfe1cd27827e16b07e61a4ac96b521bdb35e00328",
+		"nethermind": "0x31f748a368a893bdb5abb67ec95f232507601a73", 
+		"polyhedra_zk": "0x2ddf08e397541721acd82e5b8a1d0775454a180b", 
+		"google_cloud": "0xd56e4eab23cb81f43168f9f45211eb027b9ac7cc",
+		"lz_labs": "0xfd6865c841c2d64565562fcc7e05e619a30615f0",
+		"chainlink_ccip" : "0x53561bcfe6b3f23bc72e5b9919c12322729942e8",
+		"stargate" : "0xac8de74ce0a44a5e73bbc709fe800406f58431e0",
+		"omni_x" : "0x5a4c666e9c7aa86fd4fbfdfbfd04646dcc45c6c5",
+		"omnicat": "0xdff3f73c260b3361d4f006b02972c6af6c5c5417",
+		"horizen_labs" : "0x247624e2143504730aec22912ed41f092498bef2"
+	},
 	"solana" : {
 		"nethermind": "GPjyWr8vCotGuFubDpTxDxy9Vj1ZeEN4F2dwRmFiaGab", 
 		"google_cloud": "F7gu9kLcpn4bSTZn183mhn2RXUuMy7zckdxJZdUjuALw",

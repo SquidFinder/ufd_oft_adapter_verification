@@ -84,6 +84,11 @@ const config: HardhatUserConfig = {
             url: process.env.RPC_URL_ETHEREUM,
             accounts,
         },
+        binance : {
+            eid: EndpointId.BSC_V2_MAINNET,
+            url: process.env.RPC_URL_BSC,
+            accounts,
+        }
     },
     namedAccounts: {
         deployer: {

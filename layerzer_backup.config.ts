@@ -232,7 +232,7 @@ const config: OAppOmniGraphHardhat = {
 		},
         },      
         {
-            from: avalancheTokenContract,
+            from: avalancheTokenProxy,
             to: mantleTokenContract,
 		config: {
 			sendLibrary: getEndpointAddress('avalanche', 'SendLib302'),
@@ -290,7 +290,7 @@ const config: OAppOmniGraphHardhat = {
         },
     	{
             from: mantleTokenContract,
-            to:  avalancheTokenContract,
+            to:  avalancheTokenProxy,
 		config: {
 			sendLibrary: getEndpointAddress('mantle', 'SendLib302'),
 			receiveLibraryConfig: {
@@ -1228,13 +1228,13 @@ const config: OAppOmniGraphHardhat = {
                      {
                          msgType: 1,
                          optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 300000,
+                         gas: 5000000,
                          value: 2500000,
                      },
                      {
                          msgType: 2,
                          optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 300000,
+                         gas: 5000000,
                          value: 2500000,
                      },
                      {
@@ -1466,12 +1466,12 @@ const config: OAppOmniGraphHardhat = {
 		             {
 		                 msgType: 1,
 		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-                         	 gas: 900000,
+		                 gas: 500000000,
 		             },
 		             {
 		                 msgType: 2,
 		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-                         	 gas: 900000,
+		                 gas: 500000000,
 		             },
 		         ],
 		},

@@ -157,18 +157,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
         {
@@ -217,18 +205,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },      
         {
@@ -274,18 +250,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	               enforcedOptions: [
-		             {
-		                 msgType: 1,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		             {
-		                 msgType: 2,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		         ],
 		},
         },
     	{
@@ -331,18 +295,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                enforcedOptions: [
-		             {
-		                 msgType: 1,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		             {
-		                 msgType: 2,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		         ],
 		},
         },
         // In previous testing base to avalanche was already wired so additional parameters were not needed. 
@@ -403,18 +355,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
         {
@@ -461,18 +401,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		// Optional options can be found at https://docs.layerzero.network/v2/developers/evm/create-lz-oapp/configuring-pathways
 		//	These include `SendConfig`, `ulnConfig`, `receiveConfig`, & `enforcedOptions`
 		},
@@ -522,18 +450,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
         {
@@ -579,18 +495,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
     	},
     	{
@@ -636,18 +540,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
     	{
@@ -693,18 +585,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-	                 enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
         {
@@ -752,18 +632,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-			enforcedOptions: [
-                     {
-                         msgType: 1,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                     {
-                         msgType: 2,
-                         optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 54000,
-                     },
-                 ],
 		},
         },
         {
@@ -809,18 +677,6 @@ const config: OAppOmniGraphHardhat = {
 			    optionalDVNThreshold: 1,
 			  },
 			},
-			enforcedOptions: [
-		             {
-		                 msgType: 1,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		             {
-		                 msgType: 2,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-                       ],
 		},
         },
         // Solana to/from config under this line 
@@ -1228,13 +1084,13 @@ const config: OAppOmniGraphHardhat = {
                      {
                          msgType: 1,
                          optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 300000,
+                         gas: 500000000,
                          value: 2500000,
                      },
                      {
                          msgType: 2,
                          optionType: ExecutorOptionType.LZ_RECEIVE,
-                         gas: 300000,
+                         gas: 500000000,
                          value: 2500000,
                      },
                      {
@@ -1466,12 +1322,12 @@ const config: OAppOmniGraphHardhat = {
 		             {
 		                 msgType: 1,
 		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-                         	 gas: 900000,
+		                 gas: 500000000,
 		             },
 		             {
 		                 msgType: 2,
 		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-                         	 gas: 900000,
+		                 gas: 500000000,
 		             },
 		         ],
 		},
@@ -1648,121 +1504,7 @@ const config: OAppOmniGraphHardhat = {
 		             },
 		         ],
 		},
-        },
-        {
-            from: arbitrumTokenContract,
-            to:  bscTokenContract,
-		config: {
-			sendLibrary: getEndpointAddress('arbitrum', 'SendLib302'),
-			receiveLibraryConfig: {
-			  receiveLibrary: getEndpointAddress('arbitrum', 'ReceiveLib302'),
-			  gracePeriod: BigInt(0),
-			},
-			sendConfig: {
-			  executorConfig: {
-			    maxMessageSize: 10000,
-			    executor: getEndpointAddress('arbitrum', 'LZExecutor'),
-			  },
-			  ulnConfig: {
-			    confirmations: BigInt(15),
-			    requiredDVNs: [
-			    	getDVNAddress('arbitrum', 'lz_labs'),
-			    	getDVNAddress('arbitrum', 'google_cloud')			    
-			    ],
-			    optionalDVNs: [
-				getDVNAddress('arbitrum', 'nethermind'),
-				getDVNAddress('arbitrum', 'horizen_labs')
-			    ],
-			    optionalDVNThreshold: 1,
-			  },
-			},
-			receiveConfig: {
-			  ulnConfig: {
-			    confirmations: BigInt(15),
-			    requiredDVNs: [
-			    	getDVNAddress('arbitrum', 'lz_labs'),
-			    	getDVNAddress('arbitrum', 'google_cloud')
-			    ],
-			    optionalDVNs: [
-				getDVNAddress('arbitrum', 'nethermind'),
-				getDVNAddress('arbitrum', 'horizen_labs')
-			    ],
-			    optionalDVNThreshold: 1,
-			  },
-			},
-			enforcedOptions: [
-		             {
-		                 msgType: 1,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		             {
-		                 msgType: 2,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		         ],
-		},
-        },
-        {
-            from: bscTokenContract,
-            to:  arbitrumTokenContract,
-		config: {
-		sendLibrary: getEndpointAddress('bsc', 'SendLib302'),
-		receiveLibraryConfig: {
-		  receiveLibrary: getEndpointAddress('bsc', 'ReceiveLib302'),
-		  gracePeriod: BigInt(0),
-		},
-			sendConfig: {
-			  executorConfig: {
-			    maxMessageSize: 10000,
-			    executor: getEndpointAddress('bsc', 'LZExecutor'),
-			  },
-			  ulnConfig: {
-			    confirmations: BigInt(15),
-			    requiredDVNs: [
-			    	getDVNAddress('bsc', 'lz_labs'),
-			    	getDVNAddress('bsc', 'google_cloud')
-			    ],
-			    optionalDVNs: [
-			    	getDVNAddress('bsc', 'bware'),
-				getDVNAddress('bsc', 'horizen_labs'),
-				getDVNAddress('bsc', 'nethermind')
-			    ],
-			    optionalDVNThreshold: 1,
-			  },
-			},
-			receiveConfig: {
-			  ulnConfig: {
-			    confirmations: BigInt(15),
-			    requiredDVNs: [
-			    	getDVNAddress('bsc', 'lz_labs'),
-			    	getDVNAddress('bsc', 'google_cloud')	
-			    ],
-			    optionalDVNs: [
-			    	getDVNAddress('bsc', 'bware'),
-				getDVNAddress('bsc', 'horizen_labs'),
-				getDVNAddress('bsc', 'nethermind')
-
-			    ],
-			    optionalDVNThreshold: 1,
-			  },
-			},			
-			enforcedOptions: [
-		             {
-		                 msgType: 1,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		             {
-		                 msgType: 2,
-		                 optionType: ExecutorOptionType.LZ_RECEIVE,
-		                 gas: 54000,
-		             },
-		         ],
-		},
-        },
-        
+        },/*
         {
             from: bscTokenContract,
             to: solanaTokenContract,
@@ -1881,7 +1623,7 @@ const config: OAppOmniGraphHardhat = {
                      },
                  ],
              },
-        },
+        },*/
     ],
 }
 
